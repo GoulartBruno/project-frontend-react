@@ -1,5 +1,4 @@
 import React from "react";
-// import { Garagem } from "./Componentes/Garagem/Garagem";
 import { GlobalStyle } from "./GlobalStyle";
 import Body from "./components/Body/Body";
 import { Container } from "./style";
@@ -12,6 +11,7 @@ export default function App() {
       <GlobalStyle />
       <Header />
       <Body />
+
       <Footer />
     </Container>
   );
