@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Books from "./Books/Books";
 import {
   Container,
@@ -9,6 +9,10 @@ import {
 } from "./style";
 
 export default function Body() {
+  const [buscaName, setBuscaName] = useState("");
+  const [buscaOrdem, setBuscaOrdem] = useState("");
+  const [buscaPriceMax, setBuscaPriceMax] = useState();
+  const [buscaPriceMin, setBuscaPriceMin] = useState();
   return (
     <Container>
       <BoxTitle>
@@ -16,11 +20,55 @@ export default function Body() {
         <ParagraphDown>The 3 For €20 Multibuy or €9.99 Each</ParagraphDown>
       </BoxTitle>
       <BoxSortBy>
-        <div>Sidebar</div>
+        <div>
+          <label htmlFor="name"> buscar</label>
+          <input
+            type="text"
+            id="name"
+            value={buscaName}
+            onChange={(event) => {
+              setBuscaName(event.target.value);
+            }}></input>
+          <label htmlFor="priceMax"> priceMax</label>
+          <input
+            type="number"
+            id="priceMax"
+            value={buscaPriceMax}
+            onChange={(event) => {
+              setBuscaPriceMax(event.target.value);
+            }}></input>
+          <label htmlFor="priceMin"> PriceMIN</label>
+          <input
+            type="number"
+            id="priceMin"
+            value={buscaPriceMin}
+            onChange={(event) => {
+              setBuscaPriceMin(event.target.value);
+            }}></input>
+        </div>
         <div>TypeShow</div>
-        <div>Sort by</div>
+        <select
+          value={buscaOrdem}
+          onChange={(event) => {
+            setBuscaOrdem(event.target.value);
+          }}>
+          <option value="Sort">Sort</option>
+          <option value="Crescente">Crescente</option>
+          <option value="Decrescente">Decrescente</option>
+          <option value="Preco Crescente">Preco Crescente</option>
+          <option value="Preco Decrescente">Preco Decrescente</option>
+        </select>
       </BoxSortBy>
-      <div></div>
+      <Books
+        buscaName={buscaName}
+        buscaOrdem={buscaOrdem}
+        buscaPriceMin={buscaPriceMin}
+        buscaPriceMax={buscaPriceMax}
+        setBuscaName={setBuscaName}
+        setBuscaPriceMax={setBuscaPriceMax}
+        setBuscaOrdem={setBuscaOrdem}
+        setBuscaPriceMin={setBuscaPriceMin}
+      />
     </Container>
   );
 }

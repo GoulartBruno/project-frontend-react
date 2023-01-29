@@ -11,7 +11,6 @@ export default function App() {
       <GlobalStyle />
       <Header />
       <Body />
-
       <Footer />
     </Container>
   );

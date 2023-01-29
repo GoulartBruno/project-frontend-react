@@ -5,6 +5,7 @@
       "id": "The Candy House",
       "description": "From one of the most dazzling and iconic writers of our time comes an electrifying, deeply moving novel about the quest for authenticity, privacy, and meaning in a world where our memories are no longer our own--featuring characters from A Visit from...",
       "price": 15.99,
+      "review": 1,
       "author": "Jennifer Egan",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/egan-jennifer-the-candy-house-tpb-w2-9781472150936-32448644579513.jpg?v=1656151199"
     },
@@ -13,6 +14,7 @@
       "id": "This Much is True",
       "description": "There is no one on earth quite so wonderful' STEPHEN FRYBAFTA-winning actor, voice of everything from Monkey to the Cadbury's Caramel Rabbit, creator of a myriad of unforgettable characters from Lady Whiteadder to Professor Sprout, MIRIAM MARGOLYES, OBE, is the nation's favourite...",
       "price": 19.99,
+      "review": 2,
       "author": "Miriam Margolyes",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/margolyes-miriam-this-much-is-true-tpb-9781529379891-32220022407353.jpg?v=1656169028"
     },
@@ -21,6 +23,7 @@
       "id": "Everyday Cook",
       "description": "Reclaim your kitchen without sacrificing time or flavour with simplified and doable classic recipes. Seriously great home cooked food never looked this good!Donal's 10th book is a celebration of real home cooking for modern day life. Everyday Cook is filled with speedy...",
       "price": 9.99,
+      "review": 3,
       "author": "Donal Skehan",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/skehan-donal-everyday-cook-hb-w2-9781529368925-32220021719225.jpg?v=1655911631"
     },
@@ -29,6 +32,8 @@
       "id": "The Midnight House",
       "description": "Wonderful. . . I loved The Midnight House' RACHEL HORE, Sunday Times bestselling author of One Moonlit Night'Love love love this book! Fabulous female characters . . . I was totally invested in the story and couldn't wait to get back to...",
       "price": 12.99,
+      "review": 1,
+
       "author": "Amanda Geard",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/geard-amanda-the-midnight-house-tpb-w2-9781472283719-32573795795129.jpg?v=1656167227"
     },
@@ -37,6 +42,7 @@
       "id": "Memphis",
       "description": "Tara Stringfellow will be an author to watch for years to come . . . A stellar debut' Jacqueline Woodson, bestselling author of Red at the BoneJoan can't change her family's past.But she can create her future.Joan was only a child the...",
       "price": 14.99,
+      "review": 5,
       "author": "Tara M Stringfellow",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/stringfellow-tara-m-memphis-9781529339246-32642972123321.jpg?v=1656052024"
     },
@@ -45,6 +51,7 @@
       "id": "A Cloud Where the Birds Rise",
       "description": "In this stunning collaboration, bestselling writer Michael Harding's most memorable musings on the human condition are brought to life by illustrator Jacob Stack.In these pages, the reader is held in moments of belonging, solitude, love and healing as we witness the beauty...",
       "price": 23.99,
+      "review": 3,
       "author": "Michael Harding",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/harding-michael-stack-jacob-a-cloud-where-the-birds-rise-9781529382945-32557066780857.jpg?v=1655814426"
     },
@@ -53,6 +60,7 @@
       "id": "DOLLY PARTON SONGTELLER",
       "description": "Dolly Parton, Songteller: My Life in Lyrics is a landmark celebration of the remarkable life and career of a country music and pop culture legend.As told by Dolly Parton in her own inimitable words, explore the songs that have defined her journey....",
       "price": 8.99,
+      "review": 3,
       "author": "Parton Dolly",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/parton-dolly-oermann-robert-k-dolly-parton-songteller-hb-9781529349795-33818447741113.jpg?v=1665596513"
     },
@@ -61,6 +69,7 @@
       "id": "The Couple at the Table",
       "description": "Completely ingenious, entirely satisfying - a delight from start to finish' ALEX MICHAELIDES'BY FAR Sophie Hannah's best one yet. Relatable, funny, high concept and so satisfying I watched in awe as the pieces fell into place' GILLIAN McALLISTER'You'll love this brain-melting thriller!",
       "price": 18.99,
+      "review": 4,
       "author": "Hannah Sophie",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/hannah-sophie-the-couple-at-the-table-the-impossible-to-solve-murder-mystery-9781529352825-32776577450169.jpg?v=1655817843"
     },
@@ -69,6 +78,7 @@
       "id": "They All Lied",
       "description": "Riveting and thrilling in equal measure. I didn't come up for air until the very last page. Filled with fantastic characters who find themselves in terrifying and unexpected situations. I kept asking myself, what would I do if it was me? A...",
       "price": 14.99,
+      "review": 5,
       "author": "Louise Phillips",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/phillips-louise-they-all-lied-9781529304558-32642971041977.jpg?v=1656176039"
     },
@@ -77,6 +87,7 @@
       "id": "Harlem Shuffle",
       "description": "Ray Carney was only slightly bent when it came to being crooked...'To his customers and neighbors on 125th street, Carney is an upstanding salesman of reasonably-priced furniture, making a life for himself and his family. He and his wife Elizabeth are expecting...",
       "price": 17.99,
+      "review": 2,
       "author": "Colson Whitehead",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/whitehead-colson-harlem-shuffle-9780708899465-32625573822649.jpg?v=1655970496"
     },
@@ -85,6 +96,7 @@
       "id": "Before & Laughter",
       "description": "A memoir and self-help manual by one of the country's most treasured comedians - for anyone who feels stuck in a rut but doesn't have the tools or self-belief to shake things up*In his mid-twenties, Jimmy was bored, boring, unfulfilled and underachieving....",
       "price": 12.99,
+      "review": 1,
       "author": "Jimmy Carr",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/carr-jimmy-before-laughter-tpb-9781529413083-32784006250681.jpg?v=1655827385"
     },
@@ -93,6 +105,7 @@
       "id": "NIGHT CALLER",
       "description": "Well plotted and page turning' - Patricia Gibney'A tense, fast-paced, and deftly plotted thriller, which kept me guessing right to the end. I'm already looking forward to the next outing for Detective Sergeant Lucy Golden and her crew!'- Andrea CarterSometimes darkness stalks...",
       "price": 8.99,
+      "review": 5,
       "author": "Murphy Martina",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/murphy-martina-night-caller-tpb-9780349134956-32171901878457.jpg?v=1656068412"
     },
@@ -101,6 +114,7 @@
       "id": "Breaking Point",
       "description": "Breaking Point is raw, compelling, and ground-breaking; Coffey puts the life of working mothers under a microscope. To say I loved it is an understatement, I expect it will be a huge success.' Liz Nugent'A gripping, compulsive pageturner about what we expect...",
       "price": 15.99,
+      "review": 3,
       "author": "Edel Coffey",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/coffey-edel-breaking-point-tpb-z1-9780751582376-32171311202489.jpg?v=1655855112"
     },
@@ -109,6 +123,7 @@
       "id": "First Born",
       "description": "THE LAST THING A TWIN EXPECTS IS TO BE ALONE ...*** From the acclaimed author of THE LAST THING TO BURN comes a new thriller about identity, rivalry and deceit. ***'Highly accomplished, dark and dazzling. First Born twists and deceives, and cements...",
       "price": 14.99,
+      "review": 4,
       "author": "Will Dean",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/dean-will-first-born-tpb-w2-9781529307153-32573796090041.jpg?v=1655935398"
     },
@@ -117,6 +132,7 @@
       "id": "You Cant Stop The Sun From Shining",
       "description": "The book is as compelling and open-hearted as Williams is... It is full of the beguiling Sonny Bill sunshine' Don McCrae, Guardian 'Excellent' David Walsh, Sunday Times __________Out now: the extraordinary and revealing autobiography of one of rugby's most entertaining and complicated...",
       "price": 11.99,
+      "review": 2,
       "author": "Sonny Bill Williams",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/williams-sonny-bill-you-can-t-stop-the-sun-from-shining-9781529397390-32560069345465.jpg?v=1656223379"
     },
@@ -125,6 +141,7 @@
       "id": "Linda McCartneys Family Kitchen",
       "description": "THE INSTANT TIMES TOP TEN BESTSELLEROver thirty years ago, Linda McCartney first blazed the trail for meat-free cooking, and around the table of the family home in East Sussex, she shared the pleasure that eating compassionately could bring. Now Paul, Mary and...",
       "price": 16.99,
+      "review": 3,
       "author": "Linda Mccartney",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/mccartney-linda-mccartney-paul-mccartney-mary-mccartney-stella-linda-mccartney-s-family-kitchen-over-90-plant-based-recipes-to-save-the-planet-and-nourish-the-soul-9781841883632-39893.jpg?v=1668707452"
     },
@@ -133,6 +150,7 @@
       "id": "Act Like You Got Some Sense",
       "description": "From Academy Award-winning multi-talent Jamie Foxx, a hilariously candid look at the joys and pitfalls of being the father of two daughters. Jamie Foxx is not only an actor, comedian, and musician, he's also starring in his most humbling and long-running role...",
       "price": 10.99,
+      "review": 5,
       "author": "Jamie Foxx",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/foxx-jamie-act-like-you-got-some-sense-9781408716175-32626659164345.jpg?v=1655845023"
     },
@@ -141,6 +159,7 @@
       "id": "Mary Lou McDonald",
       "description": "Mary Lou McDonald is the bookies' favourite to be Ireland's next Taoiseach. She would be the first woman to reach the office, and the first Sinn Fein leader ever to enter government in the Republic of Ireland. But how did a quintessentially...",
       "price": 21.99,
+      "review": 4,
       "author": "Ross Shane",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/shane-ross-mary-lou-mcdonald-biography-9781838955892-33585266196665.jpg?v=1662582425"
     },
@@ -149,6 +168,7 @@
       "id": "The Light We Carry",
       "description": "The powerful, inspiring follow-up to the critically acclaimed, multi-million #1 bestselling memoir BecomingIn The Light We Carry, former First Lady Michelle Obama shares practical wisdom and powerful strategies for staying hopeful and balanced in today's highly uncertain world.She considers the questions many...",
       "price": 28.99,
+      "review": 1,
       "author": "Ross Shane",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/michelle-obama-the-light-we-carry-9780241621240-33582187675833.jpg?v=1662572697"
     },
@@ -157,6 +177,7 @@
       "id": "Lost Metal The A Mistborn Novel",
       "description": "Return to #1 New York Times bestseller Brandon Sanderson's Mistborn world of Scadrial as its second era, which began with The Alloy of Law, comes to its earth-shattering conclusion in The Lost Metal. For years, frontier lawman turned big-city senator Waxillium Ladrian...",
       "price": 31.99,
+      "review": 2,
       "author": "Sanderson Brandon",
       "image": "https://cdn.shopify.com/s/files/1/0616/4001/6057/products/sanderson-brandon-lost-metal-the-a-mistborn-novel-9781473215276-34001794826425.jpg?v=1666807008"
     }
