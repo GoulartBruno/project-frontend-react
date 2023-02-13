@@ -13,9 +13,9 @@ function Books({
   buscaPriceMax,
   setBuscaPriceMax,
   setBuscaPriceMin,
+  handleClick,
 }) {
   const [books, setBooks] = useState([]);
-
   const fitData = async () => {
     const response = await fetch(url);
     const data = await response.json();
@@ -24,6 +24,7 @@ function Books({
   useEffect(() => {
     fitData();
   }, []);
+
   return (
     <CardBooks>
       {books
@@ -63,7 +64,9 @@ function Books({
         .map((element, index) => (
           <CardBook key={index}>
             <Photo src={element.image}></Photo>
-            <ButtonAddToCard>ADD TO CARD</ButtonAddToCard>
+            <ButtonAddToCard onClick={() => handleClick(element)}>
+              ADD TO CARD
+            </ButtonAddToCard>
             <p>{element.name}</p>
             <p>{element.price}</p>
             <p>{element.review}</p>

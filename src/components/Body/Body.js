@@ -13,15 +13,56 @@ export default function Body() {
   const [buscaOrdem, setBuscaOrdem] = useState("");
   const [buscaPriceMax, setBuscaPriceMax] = useState();
   const [buscaPriceMin, setBuscaPriceMin] = useState();
+
+  const [cart, setCart] = useState([]);
+
+  const handleClick = (product) => {
+    const filterProduct = {
+      name: product.name,
+      price: product.price,
+      quantity: 1,
+    };
+
+    setCart([...cart, filterProduct]);
+  };
+
+  const handleRemove = (index) => {
+    setCart((remove) => remove.filter((_, i) => i !== index));
+  };
+
   return (
     <Container>
       <BoxTitle>
         <ParagraphUp>3 For €20</ParagraphUp>
-        <ParagraphDown>The 3 For €20 Multibuy or €9.99 Each</ParagraphDown>
+        <ParagraphDown>
+          <span class="material-symbols-outlined">shopping_cart</span>
+
+          <div>
+            <p>
+              Valor total: ${cart.reduce((acc, item) => acc + item.price, 0)}
+            </p>
+            <p>
+              Quantidade de Livros:
+              {cart.reduce((ac, book) => ac + book.quantity, 0)}
+            </p>
+          </div>
+
+          {cart.map((element, index) => (
+            <div key={index}>
+              <div>
+                {element.index}Nome: {element.name}
+              </div>
+              <div> -Preço:R$ {element.price}</div>
+              <button onClick={() => handleRemove(index)}>
+                <div class="material-symbols-outlined">delete</div>
+              </button>
+            </div>
+          ))}
+        </ParagraphDown>
       </BoxTitle>
       <BoxSortBy>
         <div>
-          <label htmlFor="name"> buscar</label>
+          <label htmlFor="name"> Buscar</label>
           <input
             type="text"
             id="name"
@@ -29,7 +70,7 @@ export default function Body() {
             onChange={(event) => {
               setBuscaName(event.target.value);
             }}></input>
-          <label htmlFor="priceMax"> priceMax</label>
+          <label htmlFor="priceMax"> Price Max</label>
           <input
             type="number"
             id="priceMax"
@@ -37,7 +78,7 @@ export default function Body() {
             onChange={(event) => {
               setBuscaPriceMax(event.target.value);
             }}></input>
-          <label htmlFor="priceMin"> PriceMIN</label>
+          <label htmlFor="priceMin"> Price Min</label>
           <input
             type="number"
             id="priceMin"
@@ -46,7 +87,6 @@ export default function Body() {
               setBuscaPriceMin(event.target.value);
             }}></input>
         </div>
-        <div>TypeShow</div>
         <select
           value={buscaOrdem}
           onChange={(event) => {
@@ -68,6 +108,7 @@ export default function Body() {
         setBuscaPriceMax={setBuscaPriceMax}
         setBuscaOrdem={setBuscaOrdem}
         setBuscaPriceMin={setBuscaPriceMin}
+        handleClick={handleClick}
       />
     </Container>
   );
