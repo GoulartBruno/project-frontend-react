@@ -1,11 +1,12 @@
 import React from "react";
+import { FooterContainer } from "./style";
 
 export default function Footer() {
   return (
     <div>
-      <div>
-        <h1>Titulo</h1>
-      </div>
+      <FooterContainer>
+        <p>Criado por Bruno Goulart</p>
+      </FooterContainer>
     </div>
   );
 }

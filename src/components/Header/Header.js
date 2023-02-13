@@ -14,14 +14,14 @@ export default function Header() {
         <p>FAST SHIPPING ON ALL ORDENS</p>
       </SubHead>
       <Head>
-        <div>
+        {/* <div>
           <p>burger</p>
         </div>
         <h1>logo</h1>
         <CartSearch>
           <div>busca</div>
           <div>cart</div>
-        </CartSearch>
+        </CartSearch> */}
       </Head>
       <UnderHead>
         <ParagrapfUnderHead>
