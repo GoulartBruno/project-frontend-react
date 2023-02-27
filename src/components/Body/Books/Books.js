@@ -1,24 +1,18 @@
 import React from "react";
 import { useState, useEffect } from "react";
 import { Photo, CardBooks, CardBook, ButtonAddToCard } from "./style";
-
-const url = "http://localhost:3001/books";
+import livros from "../../../db.json";
 
 function Books({
   buscaName,
   buscaOrdem,
   buscaPriceMin,
-  setBuscaName,
-  setBuscaOrdem,
   buscaPriceMax,
-  setBuscaPriceMax,
-  setBuscaPriceMin,
   handleClick,
 }) {
-  const [books, setBooks] = useState([]);
+  const [books, setBooks] = useState(livros.books);
   const fitData = async () => {
-    const response = await fetch(url);
-    const data = await response.json();
+    const data = await livros.json();
     setBooks(data);
   };
   useEffect(() => {
